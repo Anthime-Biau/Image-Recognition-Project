@@ -85,5 +85,30 @@ Before training the model, it is useful to define one or more callbacks. I have 
 
 I have decided to trained the model for 50 epochs
 
+## Performance metrics
 
+I have chosen accuracy for evaluating model performance.
 
+<p align="center">
+  <img src="https://github.com/Anthime-Biau/Image-Recognition-Project/blob/master/images/resnet80.png?raw=true" alt="Loss Evolution"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Anthime-Biau/Image-Recognition-Project/blob/master/images/resnet80_1.png?raw=true" alt="Accuracy Evolution"/>
+</p>
+
+For a better look at misclassification, we often use the following metric to get a better idea of true positives (TP), true negatives (TN), false positive (FP) and false negative (FN).
+
+Precision is the ration of correctly predicted positive observations to the total predicted positive observations.
+
+Recall is the ratio of correctly predicted positive observations to all the observations in actual class
+
+<p align="center">
+  <img src="https://github.com/Anthime-Biau/Image-Recognition-Project/blob/master/images/resnet80_confusion.png?raw=true" alt="Confusion Matrix"/>
+</p>
+
+# Results
+
+<p align="center">
+  <img src="https://github.com/Anthime-Biau/Image-Recognition-Project/blob/master/images/result.PNG?raw=true" alt="Result"/>
+</p>
