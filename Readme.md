@@ -1,6 +1,6 @@
 # The project
 
-The purpose is to build an algorithm automatically identify whether a patient is suffering from breast cancer or not by looking at biopsy images. It's a binary classification problem.
+The purpose is to build an algorithm to automatically identify whether a patient is suffering from breast cancer or not by looking at biopsy images. It's a binary classification problem.
 
 <p align="center">
   <img src="https://github.com/Anthime-Biau/Image-Recognition-Project/blob/master/images/image1.PNG?raw=true" alt="Image of Tissues"/>
