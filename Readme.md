@@ -12,7 +12,7 @@ The dataset is composed of 300 images of tissues.
 For the training dataset :
 We have 100 images of malign tissues and 100 images of benign tissues.
 For the testing dataset :
-We have 50 images of malign tissues and 50 images of benign tissues. 
+we have 50 images of malign tissues and 50 images of benign tissues. 
 
 It is a perfectly balanced dataset.
 
@@ -25,11 +25,11 @@ I have decided to use Keras , it is a Python libraries which act like a deep lea
 On Keras framework we can access pre-trained algorithm. Using pre-trained algorithm for an image classification task is a fast way to build a classifier with few training datas.
 
 For the two selected models :
-I used DenseNET201 and ResNET50 pre trained weights which is already trained in the Imagenet competition. The learning rate chosen to be 0.0001.
+I used DenseNET201 and ResNET50 pre trained weights which are already trained in the Imagenet competition. The learning rate chosen to be 0.0001.
 
-On top of them I used a globalaberagepooling layer followed by 50% dropouts to reduce over-fitting.
+On top of them I used a globalaveragepooling layer followed by 50% dropouts to reduce over-fitting.
 
-I used batch normalization and a dense layer with 2 neurons for 2 output classes (benign and malign) with softmaw as the activation function.
+I used batch normalization and a dense layer with 2 neurons for 2 output classes (benign and malign) with softmax as the activation function.
 
 I have used Adam as the optimizer and binary-cross-entropy as the loss function.
 
